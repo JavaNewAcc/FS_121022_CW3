@@ -1,0 +1,19 @@
+body{background-color: pink;}
+header{background-color: black;}
+footer{background-color:beige;}
+h3, p{color: red;}
+.class1{color: grey}
+/* DRY - don't repeat yourself */
+body p.class1.big-size-font.bg-unique{background-color: red;}
+/* overrides all formats since it has longest address */
+p.class1{font-size: 19px;}
+p.class1.big-size-font{font-size: 30px;}
+p.class1.big-size-font.bg-unique{background-color: yellowgreen!important;}
+/* !important is not recomended for use since it is invonvenient for other developers */
+#textID{color: crimson; font-size: 35px; background-color: aqua;}
+/* text ID could be used only once on the page, could be used only for unique things */
+*{text-decoration: underline;
+font-size: 40;
+color: darkorange;}
+.class1>strong{font-size: 50px;}
+.mobile{display: none;}
