@@ -1,5 +1,7 @@
 body p.class-name.big-size-font.bg-block{background-color: red;}
 body{background-color: pink;}
+header{background-color: #fff;}
+footer{background-color: #333;}
 h3,p{color: #fff;}
 .class-name{color: green;}
 p.class-name{font-size: 15px;}
@@ -7,4 +9,41 @@ p.class-name{font-size: 15px;}
 .bg-block{background-color: violet;}
 .class-name.bg-block{background-color: black;}
 p.class-name.big-size-font.bg-block{background-color: #fff;}
-.class-name.big-size-font.bg-block{background-color: aquamarine;}
+.class-name.big-size-font.bg-block{background-color: black; text-align: center;}
+#textID{color: orangered;font-size: 25px;}
+#topTextID, #bottomTextID{color: orangered; font-size: 25px;}
+/* *{font-size: 10px; color: yellow;text-decoration: underline;} */
+/* styles for all elements*/
+/* .class-name>strong{font-size: 25px;} */
+.mobile{display: none;}
+div.class-name>strong{font-size: 35px;}
+ul li:first-child{color: red; text-decoration: underline;}
+ul li:last-child{color: red; text-decoration: underline;}
+ul li:nth-child(3){color: red;text-decoration: underline;}
+a[href="main.html"]{font-size: 40px;}
+h3{text-align: center;}
+nav{text-align: center; font-size: 45px;}
+p{line-height: 1.0;}
+div{
+    width: 600px;
+    height: 300px;
+    /* padding: 50px;} */
+    /* short - 50px for all paddings */
+
+    /* padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px; */
+    /* specific paddings, each separately */
+
+    /* padding: 10px 30px 5px 30px; */
+    /* padding for each side */
+
+    padding: 15px 50px;
+    /* top and bottom - 15px each, right and left - 50px each */
+
+    margin: 100px auto;
+}
+
+*{box-sizing: border-box;}
+
